@@ -6,11 +6,12 @@
 }
 
 .navbar {
-    background-color: #263238;
+    background-color: #171d23;
     text-align: left;
     width: 100%;
     position: sticky;
     padding: 0 !important;
+    border-bottom: 1px solid #62DAFA;
 }
 
 .navbar-nav .nav-link {

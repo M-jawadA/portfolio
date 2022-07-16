@@ -18,7 +18,7 @@ if (typeof process.env.REACT_APP_TRACKING_ID !== "undefined") {
 
 function App() {
   return (
-    <Router baseline="/">
+    <Router baseline="#">
       <div className="App">
         <NavBar />
         <ScrollToTop />
