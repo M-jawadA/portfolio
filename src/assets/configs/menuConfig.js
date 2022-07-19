@@ -34,6 +34,13 @@ const menuConfig = {
       icon: <AiFillCode size={35} />,
       className: "nav-text",
     },
+    {
+      id: "menu-3",
+      title: "Reviews",
+      path: "/review",
+      icon: <AiFillCode size={35} />,
+      className: "nav-text",
+    },
   ],
 };
 

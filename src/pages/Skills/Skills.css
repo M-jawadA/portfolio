@@ -8,10 +8,10 @@
     display: inline-block;
     flex-direction: row;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 2.5rem;
     text-align: center;
-    background-color: #263238;
-    margin: 2.5rem;
+    background-color: #1ea336;
+    margin: 1.5rem;
     border-radius: 25px;
 }
 
@@ -26,13 +26,22 @@
 }
 
 
-.main-skills-h1,
-.complementary-skill-h1 {
+.main-skills-h1{
+    margin-top: 20px;
     width: 100%;
     overflow: hidden;
     vertical-align:middle;
     color: #f5f5f5;
-    background-color: #66806A;
+    /* background-color: #243341; */
+    padding: 5px;
+}
+.complementary-skills-h1 {
+
+    width: 100%;
+    overflow: hidden;
+    vertical-align:middle;
+    color: #f5f5f5;
+   
     padding: 5px;
 }
 

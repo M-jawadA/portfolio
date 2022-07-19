@@ -12,13 +12,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import React from "react";
 
-if (typeof process.env.REACT_APP_TRACKING_ID !== "undefined") {
-  ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
-}
+// if (typeof process.env.REACT_APP_TRACKING_ID !== "undefined") {
+//   ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
+// }
 
 function App() {
   return (
-    <Router baseline="#">
+    <Router>
       <div className="App">
         <NavBar />
         <ScrollToTop />
